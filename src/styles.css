@@ -8,6 +8,27 @@
 body {
   margin: 100px 0 !important;
 }
+@media (max-width: 576px) {
+  body h1 {
+    font-size: 50px !important;
+  }
+  body h2 {
+    font-size: 30px !important;
+  }
+  body h3 {
+    font-size: 20px !important;
+  }
+  .col-md-6 h2 {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .col-md-6 p {
+    text-align: center;
+  }
+  .mt-5 {
+    text-align: center;
+  }
+}
 
 h1,
 h2,
