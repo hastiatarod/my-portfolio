@@ -3,9 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Hasti's portfolio showcases advanced front-end development skills, innovative projects, and expertise in creating dynamic, user-friendly websites. Explore my work and connect to build cutting-edge web solutions."
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
     />
     <link rel="stylesheet" href="/src/styles.css" />
     <link
@@ -18,12 +20,10 @@
   </head>
   <body>
     <nav
-      class="navbar navbar-expand-lg fixed-top"
-      data-bs-theme="dark"
-      style="background-color: #364652"
+      class="navbar navbar-expand-sm bg-body-tertiary"
+      style="background-color: transparent !important"
     >
-      <div class="container">
-        <a class="navbar-brand" href="/">Hasti Atarod</a>
+      <div class="container-fluid">
         <button
           class="navbar-toggler"
           type="button"
@@ -41,85 +41,27 @@
               <a class="nav-link active" aria-current="page" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about.html">About me</a>
+              <a class="nav-link" href="/about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about.html#contact">Contact me</a>
+              <a class="nav-link" href="#">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <h2 class="text-center">👋 Hi I am</h2>
-    <h1 class="text-center">Hasti Atarod</h1>
-    <h3 class="text-center">Front-end developer, based in Tehran</h3>
-    <div class="navigation-links mb-5">
-      <a href="/about.html#contact" class="contact-link">Contact me</a>
-      <a href="/about.html" class="about-link">About me</a>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <img
-            src="/src/images/yoga.png"
-            class="img-fluid rounded"
-            alt="Yoga app"
-          />
-        </div>
-        <div class="col-md-6">
-          <h2 class="mb-3">Yoga app</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
-          </p>
-          <div class="mt-5">
-            <a href="#" class="primary-link">Launch Yoga App</a>
-          </div>
-        </div>
+    <div class="container home-body-text">
+      <div>
+        <h4>Hi I’am</h4>
+        <h2>Hasti Atarod</h2>
+        <h1>Frontend Developer, based in Tehran</h1>
       </div>
-      <div class="row mt-5">
-        <div class="col-md-6">
-          <h2 class="mb-3">Weather app</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
-          </p>
-          <div class="mb-5 mt-5">
-            <a href="#" class="primary-link">Launch Weather App</a>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <img
-            src="/src/images/weather.png"
-            class="img-fluid rounded"
-            alt="Weather app"
-          />
-        </div>
-      </div>
-      <div class="row mt-5">
-        <div class="col-md-6">
-          <img
-            src="/src/images/yogurt.png"
-            class="img-fluid rounded"
-            alt="Yogurt app"
-          />
-        </div>
-        <div class="col-md-6">
-          <h2 class="mb-3">Yogurt app</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
-          </p>
-          <div class="mt-5">
-            <a href="#" class="primary-link">Launch Yogurt App</a>
-          </div>
-        </div>
+
+      <div class="home-body-button-container">
+        <button class="home-body-button">Get Started</button>
       </div>
     </div>
 
