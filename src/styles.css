@@ -31,8 +31,17 @@ nav .nav-link {
 nav .navbar-toggler {
   background-color: var(--primary-button);
 }
+.home-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 .home-body-text {
   margin-top: 120px;
+}
+.home-body-img {
+  margin: auto 0 0 auto;
+  filter: drop-shadow(1px 1px 15px var(--heading-color));
 }
 body h1 {
   font-family: "Poppins", sans-serif;
