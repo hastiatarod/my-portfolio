@@ -8,28 +8,27 @@
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+  --primary-button:#73EC8B
 }*/
 :root {
   --primary-color: #0f0f0f;
   --secondary-color: #005b41;
-  --tertiary-color: #d2ff72;
-  --primary-accent: #00ffff;
-  --primary-button: #00bfa6;
-  --secondary-icon: #7d3ac1;
-  --secondary-border: #a020f0;
+  --primary-button: #73ec8b;
   --heading-color: #e0e0e0;
   --body-text-color: #b0b0b0;
-  --element-color: #ff8c42;
 }
 body {
   background-color: var(--primary-color) !important;
 }
 nav .nav-link {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
   color: var(--primary-button) !important;
 }
 
 nav .navbar-toggler {
-  background-color: #00bfa674;
+  background-color: var(--primary-button);
 }
 .home-body {
   display: flex;
@@ -134,12 +133,13 @@ body .work-section-weather-app-container {
   color: var(--body-text-color);
 }
 body .footer {
-  margin: 81px auto;
+  margin: 132px auto 80px;
   padding: 49px 119px;
-  background: #7e3ac172;
+  background: #353941;
   border-radius: 20px;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-items: center;
 }
 .footer-head {
@@ -156,8 +156,8 @@ body .footer {
   color: var(--body-text-color);
 }
 .footer button {
-  background-color: transparent;
-  border: 1px solid var(--primary-color);
+  background-color: var(--primary-button);
+  border: none;
   box-shadow: var(--primary-color) 0px 1px 4px;
   border-radius: 4px;
   padding: 18px 38px;
@@ -167,5 +167,24 @@ body .footer {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 18px;
+  color: var(--primary-color);
+}
+.contact {
+  margin: 130px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
   color: var(--body-text-color);
+  padding: 40px 0;
+}
+.social-media a {
+  border-radius: 100%;
+  padding: 7px 14px;
+  background-color: var(--primary-button);
 }
