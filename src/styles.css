@@ -80,7 +80,8 @@ body h4 {
   text-align: center;
 }
 .featured-project {
-  margin-bottom: 70px;
+  margin-bottom: 100px;
+  padding: 10px 0;
 }
 body .work-section-weather-app-container {
   margin: auto;
@@ -111,13 +112,14 @@ body .work-section-weather-app-container {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
+  line-height: 30px;
   padding: 10px;
-  color: var(--heading-color);
+  color: var(--body-text-color);
   margin-top: 40px;
 }
 .work-section-weather-app-button button {
   background: none;
-  color: var(--body-text-color);
+
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -126,4 +128,44 @@ body .work-section-weather-app-container {
   border-radius: 4px;
   margin-top: 40px;
   box-shadow: var(--primary-button) 0px 1px 4px;
+}
+.work-section-weather-app-button button a {
+  text-decoration: none;
+  color: var(--body-text-color);
+}
+body .footer {
+  margin: 81px auto;
+  padding: 49px 119px;
+  background: #7e3ac172;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-head {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: var(--heading-color);
+}
+.footer-p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--body-text-color);
+}
+.footer button {
+  background-color: transparent;
+  border: 1px solid var(--primary-color);
+  box-shadow: var(--primary-color) 0px 1px 4px;
+  border-radius: 4px;
+  padding: 18px 38px;
+}
+.footer button a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--body-text-color);
 }
