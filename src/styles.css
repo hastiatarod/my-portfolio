@@ -224,3 +224,25 @@ body .footer {
   border-radius: 4px;
   padding: 18px 46px;
 }
+/**************************************************/
+.work-headline {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 64px;
+  color: var(--heading-color);
+  margin: 178px auto;
+}
+.work-projects-items {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: var(--body-text-color);
+}
+.work-projects-items-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--body-text-color);
+}
