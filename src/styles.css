@@ -244,5 +244,26 @@ body .footer {
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
+}
+.work-projects-items-title a {
+  text-decoration: none;
   color: var(--body-text-color);
+}
+.work-projects-items-title a:hover {
+  color: var(--primary-button);
+}
+body .work-projects-box-2 {
+  margin-top: 120px;
+}
+.work-projects img {
+  border-radius: 4px;
+  padding: 1px;
+  background-color: white;
+}
+body .work-projects-box-3 {
+  margin-top: 120px;
+}
+body .work-projects-box-4 {
+  margin-top: 120px;
+  margin-bottom: 200px;
 }
