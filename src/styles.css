@@ -224,6 +224,23 @@ body .footer {
   border-radius: 4px;
   padding: 18px 46px;
 }
+
+.about-my-skills {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--heading-color);
+  margin-bottom: 70px;
+}
+
+.about-my-skills-items {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: var(--body-text-color);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 /**************************************************/
 .work-headline {
   font-family: "Playfair Display", serif;

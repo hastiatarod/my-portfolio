@@ -21,8 +21,8 @@
   <body>
     <div class="container">
       <nav
-        class="navbar navbar-expand-sm bg-body-tertiary"
-        style="background-color: transparent !important"
+        class="navbar navbar-expand-sm bg-body-tertiary fixed-top"
+        style="background-color: #0f0f0f !important"
       >
         <div class="container-fluid">
           <button
@@ -57,7 +57,7 @@
     </div>
     <div class="container about-hero">
       <div class="row">
-        <div class="col-6">
+        <div class="col-12 col-md-6">
           <div class="about-name">Hi I am Hasti Atarod</div>
           <div class="about-title">Frontend Developer, based in Iran.</div>
           <div class="about-p">
@@ -69,8 +69,81 @@
           <button class="about-button">View all project</button>
         </div>
 
-        <div class="col-6">
-          <img src="/src/images/avatar.svg" alt="" />
+        <div class="col-12 col-md-6">
+          <img src="/src/images/avatar.svg" alt="" class="img-fluid mt-5" />
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row about-my-skills-box">
+        <div
+          class="col d-flex justify-content-center align-items-center about-my-skills"
+        >
+          My skills
+        </div>
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-md-3 d-flex flex-column align-items-center">
+            <img src="/src/images/React-icon.svg" alt="" width="70" />
+            <div class="about-my-skills-items">React.js</div>
+          </div>
+          <div
+            class="col-md-3 d-flex flex-column justify-content-center align-items-center"
+          >
+            <img src="/src/images/Javascript-shield.svg" alt="" width="60" />
+            <div class="about-my-skills-items">Javascript ES6</div>
+          </div>
+          <div
+            class="col-md-3 d-flex flex-column justify-content-center align-items-center"
+          >
+            <img
+              src="/src/images/html-5-logo-svgrepo-com.svg"
+              alt=""
+              width="85"
+            />
+            <div class="about-my-skills-items">HTML 5</div>
+          </div>
+          <div
+            class="col-md-3 d-flex flex-column justify-content-center align-items-center"
+          >
+            <img src="/src/images/css-3-svgrepo-com.svg" alt="" width="85" />
+            <div class="about-my-skills-items">CSS 5</div>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center align-items-center mt-5">
+          <div class="col-md-3 d-flex flex-column align-items-center">
+            <img src="/src/images/Bootstrap_logo.svg" alt="" width="70" />
+            <div class="about-my-skills-items">Bootstrap</div>
+          </div>
+          <div
+            class="col-md-3 d-flex flex-column justify-content-center align-items-center"
+          >
+            <img src="/src/images/git-svgrepo-com.svg" alt="" width="70" />
+            <div class="about-my-skills-items">Git</div>
+          </div>
+          <div
+            class="col-md-3 d-flex flex-column justify-content-center align-items-center"
+          >
+            <img src="/src/images/octocat.svg" alt="" width="85" />
+            <div class="about-my-skills-items">GitHub</div>
+          </div>
+          <div
+            class="col-md-3 d-flex flex-column justify-content-center align-items-center"
+          >
+            <img src="/src/images/Google_-G-_logo.svg" alt="" width="70" />
+            <div class="about-my-skills-items">SEO</div>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center align-items-center mt-5">
+          <div class="col-md-3 d-flex flex-column align-items-center">
+            <img src="/src/images/api-svgrepo-com.svg" alt="" width="90" />
+            <div class="about-my-skills-items">API</div>
+          </div>
+          <div
+            class="col-md-3 d-flex flex-column justify-content-center align-items-center"
+          >
+            <img src="/src/images/netlify-svgrepo-com.svg" alt="" width="70" />
+            <div class="about-my-skills-items">Hosting</div>
+          </div>
         </div>
       </div>
     </div>
@@ -82,7 +155,9 @@
         </div>
       </div>
       <div>
-        <button><a href="">Let’s talk here</a></button>
+        <button>
+          <a href="">Let’s talk here</a>
+        </button>
       </div>
     </div>
     <div class="container contact">
