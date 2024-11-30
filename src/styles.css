@@ -72,6 +72,8 @@ body h4 {
   border: none;
   border-radius: 4px;
   padding: 18px 46px;
+  text-decoration: none;
+  color: var(--primary-color);
 }
 .work-section {
   background: linear-gradient(0deg, var(--primary-color), 80%, #212121);
@@ -79,7 +81,7 @@ body h4 {
   text-align: center;
 }
 .featured-project {
-  margin-bottom: 100px;
+  margin-bottom: 200px;
   padding: 10px 0;
 }
 body .work-section-weather-app-container {
@@ -102,11 +104,7 @@ body .work-section-weather-app-container {
   font-size: 96px;
   color: var(--heading-color);
 }
-@media (max-width: 1400px) {
-  .work-section-weather-app-head {
-    font-size: 60px;
-  }
-}
+
 .work-section-weather-app-p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -224,7 +222,9 @@ body .footer {
   border-radius: 4px;
   padding: 18px 46px;
 }
-
+.about-my-skills-box-container {
+  margin-bottom: 200px;
+}
 .about-my-skills {
   font-family: "Playfair Display", serif;
   font-weight: 700;
@@ -283,4 +283,56 @@ body .work-projects-box-3 {
 body .work-projects-box-4 {
   margin-top: 120px;
   margin-bottom: 200px;
+}
+/**************************************************/
+.contact-headline {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 64px;
+  color: var(--heading-color);
+  margin: 178px auto;
+}
+.contact-footer {
+  background: #353941;
+  border-radius: 20px;
+  padding: 49px 119px;
+}
+.contact-footer-inquiry {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 63px;
+  color: var(--body-text-color);
+  margin-bottom: 18px;
+}
+.contact-footer-inquiry-p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--body-text-color);
+}
+.contact-footer-inquiry-button a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--primary-color);
+  text-decoration: none;
+  background-color: var(--primary-button);
+  border: none;
+  box-shadow: var(--primary-color) 0px 1px 4px;
+  border-radius: 4px;
+  padding: 18px 38px;
+}
+
+/**************************************************/
+@media (max-width: 1400px) {
+  .work-section-weather-app-head {
+    font-size: 60px;
+  }
+}
+@media (max-width: 768px) {
+  body .contact-footer-inquiry-button {
+    justify-content: center !important;
+  }
 }
