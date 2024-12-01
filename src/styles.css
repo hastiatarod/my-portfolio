@@ -386,8 +386,169 @@ body .work-projects-box-4 {
     font-size: 60px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 991px) {
+  .home-body-text h4 {
+    font-size: 25px;
+  }
+  .home-body-text h2 {
+    font-size: 65px;
+  }
+  .home-body-text h1 {
+    font-size: 16px;
+    margin-top: 12px;
+  }
+  .home-body-img img {
+    width: 250px;
+  }
+  .home-body-text {
+    margin-top: 75px;
+  }
+  .work-section-weather-app-head {
+    font-size: 45px;
+  }
+  .work-section-weather-app-p {
+    font-size: 12px;
+    margin-top: 8px;
+    line-height: 21px;
+  }
+  .work-section-weather-app-button button {
+    font-size: 13px;
+    margin-top: 10px;
+    padding: 13px 15px;
+  }
+  .contact-footer-inquiry {
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 13px;
+  }
+  .contact-footer-inquiry-p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .contact-footer-inquiry-button a {
+    padding: 12px 24px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 767px) {
+  .home-body {
+    margin: 120px auto;
+  }
+  .home-body-text {
+    margin-top: 60px;
+  }
+  .home-body-text h4 {
+    font-size: 22px;
+  }
+  .home-body-text h2 {
+    font-size: 52px;
+  }
+  .home-body-text h1 {
+    font-size: 14px;
+    margin-top: 8px;
+  }
+  .home-body-button-container {
+    margin-top: 35px;
+  }
+  .home-body-button {
+    font-size: 12px;
+    padding: 13px 32px;
+  }
+  .home-body-img img {
+    width: 180px;
+  }
+  .work-section {
+    margin-top: 112px;
+  }
+  body .work-section-weather-app-container {
+    margin-top: 20px;
+  }
+  .featured-project {
+    margin-bottom: 70px;
+  }
+  .contact-footer-inquiry {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+  .contact-footer-inquiry-p {
+    font-size: 12px;
+    line-height: 20px;
+    justify-content: center;
+  }
   body .contact-footer-inquiry-button {
     justify-content: center !important;
+  }
+  .contact-footer-inquiry-button a {
+    padding: 10px 22px;
+    font-size: 12px;
+  }
+  .about-name {
+    font-size: 40px;
+    margin-bottom: 8px;
+  }
+  .about-title {
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 600;
+  }
+  .about-p {
+    font-size: 13px;
+    line-height: 25px;
+    margin-bottom: 32px;
+  }
+  .about-button {
+    font-size: 12px;
+    padding: 14px 36px;
+  }
+  .about-hero-image {
+    width: 300px;
+  }
+  .about-my-skills-img {
+    width: 50px;
+  }
+  .work-headline {
+    font-size: 48px;
+  }
+  .work-projects-box-1-weather-app {
+    margin-bottom: 40px;
+  }
+  .contact-headline {
+    font-size: 45px;
+    margin: 140px auto;
+  }
+}
+@media (max-width: 540px) {
+  .home-body-text h4 {
+    font-size: 18px;
+  }
+  .home-body-text h2 {
+    font-size: 45px;
+  }
+  .home-body-text h1 {
+    font-size: 12px;
+    margin-top: 8px;
+  }
+  .work-section-header {
+    font-size: 14px;
+  }
+  .work-section-weather-app-head {
+    font-size: 35px;
+  }
+  .work-section-weather-app-p {
+    font-size: 12px;
+    margin-top: 6px;
+    line-height: 21px;
+  }
+  .work-section-weather-app-button button {
+    font-size: 10px;
+  }
+  .about-hero {
+    text-align: center;
+  }
+  body .about-hero-img {
+    justify-content: center !important;
+    margin-top: 30px;
   }
 }
