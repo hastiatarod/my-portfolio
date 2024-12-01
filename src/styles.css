@@ -327,8 +327,62 @@ body .work-projects-box-4 {
 }
 
 /**************************************************/
-@media (max-width: 1400px) {
+@media (max-width: 1199px) {
+  .home-body-text h4 {
+    font-size: 30px;
+  }
+  .home-body-text h2 {
+    font-size: 86px;
+  }
+  .home-body-text h1 {
+    font-size: 18px;
+  }
+  .home-body-button {
+    font-size: 14px;
+    padding: 14px 42px;
+  }
+  .home-body-img img {
+    width: 300px;
+  }
+  .work-section-header {
+    font-size: 16px;
+  }
   .work-section-weather-app-head {
+    font-size: 64px;
+  }
+  .work-section-weather-app-p {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .work-section-weather-app-button button {
+    font-size: 13px;
+    margin-top: 25px;
+  }
+  .featured-project {
+    margin-bottom: 130px;
+  }
+  .about-hero {
+    margin: 170px auto;
+  }
+  .about-name {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  .about-p {
+    font-size: 14px;
+    line-height: 27px;
+  }
+  .about-button {
+    font-size: 14px;
+    padding: 16px 42px;
+  }
+  .about-hero-image {
+    width: 400px;
+  }
+  .work-headline {
+    font-size: 60px;
+  }
+  .contact-headline {
     font-size: 60px;
   }
 }
