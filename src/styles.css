@@ -327,6 +327,48 @@ body .work-projects-box-4 {
 }
 
 /**************************************************/
+@media (max-width: 1399px) {
+  .home-body-text {
+    margin-top: 120px;
+    margin-bottom: 40px;
+  }
+  .home-body-text h4 {
+    font-size: 26px;
+  }
+  .home-body-text h2 {
+    font-size: 85px;
+  }
+  .home-body-text h1 {
+    font-size: 20px;
+    margin-top: 11px;
+  }
+  .work-section-weather-app-head {
+    font-size: 58px;
+  }
+  .work-section-weather-app-p {
+    font-size: 14px;
+    line-height: 28px;
+    margin-top: 16px;
+  }
+  .work-section-weather-app-button button {
+    margin-top: 22px;
+  }
+  .about-name {
+    font-size: 58px;
+    margin-bottom: 12px;
+  }
+  .about-p {
+    margin-bottom: 38px;
+  }
+  .work-headline {
+    font-size: 56px;
+  }
+  .contact-headline {
+    font-size: 56px;
+  }
+}
+/**************************************************/
+
 @media (max-width: 1199px) {
   .home-body-text h4 {
     font-size: 30px;
@@ -534,10 +576,10 @@ body .work-projects-box-4 {
     font-size: 14px;
   }
   .work-section-weather-app-head {
-    font-size: 35px;
+    font-size: 30px;
   }
   .work-section-weather-app-p {
-    font-size: 12px;
+    font-size: 11px;
     margin-top: 6px;
     line-height: 21px;
   }
@@ -550,5 +592,68 @@ body .work-projects-box-4 {
   body .about-hero-img {
     justify-content: center !important;
     margin-top: 30px;
+  }
+  .about-my-skills {
+    font-size: 35px;
+  }
+  .about-my-skills-box i {
+    font-size: 32px;
+  }
+  .about-my-skills-items {
+    font-size: 10px;
+    margin-top: 7px;
+  }
+  .work-headline {
+    margin: 145px auto;
+    font-size: 33px;
+  }
+  .work-projects-items {
+    font-size: 18px;
+  }
+  .work-projects-items-title {
+    font-size: 10px;
+    line-height: 9px;
+  }
+  .contact-headline {
+    font-size: 35px;
+  }
+}
+@media (max-width: 375px) {
+  .home-body {
+    justify-content: center;
+    text-align: center;
+  }
+  .home-body-img {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+  .work-section-weather-app-head {
+    font-size: 25px;
+  }
+  .contact-footer-inquiry {
+    font-size: 22px;
+  }
+  .contact-footer-inquiry-p {
+    font-size: 10px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .contact-footer-inquiry-button a {
+    padding: 10px 20px;
+    font-size: 10px;
+  }
+  .contact-footer {
+    padding: 43px 63px;
+  }
+  .contact {
+    margin: 100px auto;
+  }
+  .contact a {
+    font-size: 14px;
+    padding: 30px 0;
+  }
+  .social-media a {
+    padding: 7px 7px;
   }
 }
