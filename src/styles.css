@@ -102,7 +102,7 @@ body .work-section-weather-app-container {
 .work-section-weather-app-head {
   font-family: "Playfair Display", serif;
   font-weight: 700;
-  font-size: 96px;
+  font-size: 73px;
   color: var(--heading-color);
 }
 
@@ -113,7 +113,8 @@ body .work-section-weather-app-container {
   line-height: 30px;
   padding: 10px;
   color: var(--body-text-color);
-  margin-top: 40px;
+  margin-top: 25px;
+  text-align: justify;
 }
 .work-section-weather-app-button button {
   background: none;
@@ -390,15 +391,15 @@ body .work-projects-box-4 {
     font-size: 16px;
   }
   .work-section-weather-app-head {
-    font-size: 64px;
+    font-size: 45px;
   }
   .work-section-weather-app-p {
-    font-size: 14px;
-    margin-top: 20px;
+    font-size: 12px;
+    margin-top: 12px;
   }
   .work-section-weather-app-button button {
-    font-size: 13px;
-    margin-top: 25px;
+    font-size: 11px;
+    margin-top: 15px;
   }
   .featured-project {
     margin-bottom: 130px;
@@ -446,12 +447,12 @@ body .work-projects-box-4 {
     margin-top: 75px;
   }
   .work-section-weather-app-head {
-    font-size: 45px;
+    font-size: 40px;
   }
   .work-section-weather-app-p {
-    font-size: 12px;
-    margin-top: 8px;
-    line-height: 21px;
+    font-size: 11px;
+    margin-top: 5px;
+    line-height: 22px;
   }
   .work-section-weather-app-button button {
     font-size: 13px;
@@ -526,6 +527,13 @@ body .work-projects-box-4 {
     padding: 10px 22px;
     font-size: 12px;
   }
+  .contact a {
+    font-size: 18px;
+    padding: 35px 0;
+  }
+  .social-media a {
+    padding: 7px 9px;
+  }
   .about-name {
     font-size: 40px;
     margin-bottom: 8px;
@@ -551,14 +559,59 @@ body .work-projects-box-4 {
     width: 50px;
   }
   .work-headline {
-    font-size: 48px;
+    font-size: 42px;
   }
-  .work-projects-box-1-weather-app {
-    margin-bottom: 40px;
+  body .work-projects-box-1-weather-app {
+    margin-bottom: 40px !important;
   }
   .contact-headline {
+    font-size: 42px;
+    margin: 140px auto 60px;
+    text-align: center;
+  }
+}
+@media (max-width: 575px) {
+  body .home-body {
+    padding: 0 30px;
+  }
+  .home-body-text h4 {
+    font-size: 20px;
+  }
+  .home-body-text h2 {
     font-size: 45px;
-    margin: 140px auto;
+  }
+  .home-body-img {
+    margin: auto 0;
+  }
+  .home-body-img img {
+    width: 170px;
+  }
+  .work-section-weather-app-p {
+    padding: 10px 31px;
+  }
+  body .contact-footer {
+    margin: auto 20px;
+    padding: 48px 41px;
+  }
+  .contact-footer-inquiry-p {
+    text-align: center;
+  }
+  .about-hero {
+    text-align: center;
+  }
+  body .about-hero-img {
+    justify-content: center !important;
+    margin-top: 30px;
+  }
+  .about-name {
+    font-size: 35px;
+  }
+  .about-p {
+    font-size: 12px;
+    line-height: 22px;
+    margin-bottom: 22px;
+    text-align: justify;
+    padding: 0 20px;
   }
 }
 @media (max-width: 540px) {
@@ -566,7 +619,7 @@ body .work-projects-box-4 {
     font-size: 18px;
   }
   .home-body-text h2 {
-    font-size: 45px;
+    font-size: 40px;
   }
   .home-body-text h1 {
     font-size: 12px;
@@ -586,13 +639,7 @@ body .work-projects-box-4 {
   .work-section-weather-app-button button {
     font-size: 10px;
   }
-  .about-hero {
-    text-align: center;
-  }
-  body .about-hero-img {
-    justify-content: center !important;
-    margin-top: 30px;
-  }
+
   .about-my-skills {
     font-size: 35px;
   }
@@ -617,6 +664,40 @@ body .work-projects-box-4 {
   .contact-headline {
     font-size: 35px;
   }
+  .contact-footer-inquiry {
+    text-align: center;
+  }
+  .contact-footer-inquiry-p {
+    text-align: center;
+  }
+}
+@media (max-width: 499px) {
+  .home-body-text {
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto 60px;
+  }
+  .home-body-text h4 {
+    font-size: 18px;
+  }
+  .home-body-text h2 {
+    font-size: 40px;
+  }
+  .home-body-text h1 {
+    font-size: 12px;
+    margin-top: 8px;
+  }
+  .home-body-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  }
+
+  .home-body-img {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
 }
 @media (max-width: 375px) {
   .home-body {
@@ -631,6 +712,7 @@ body .work-projects-box-4 {
   .work-section-weather-app-head {
     font-size: 25px;
   }
+
   .contact-footer-inquiry {
     font-size: 22px;
   }
