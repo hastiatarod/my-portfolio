@@ -17,15 +17,18 @@
   --heading-color: #e0e0e0;
   --body-text-color: #b0b0b0;
 }
+
 body {
   background-color: var(--primary-color) !important;
 }
+
 nav .nav-link {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
   color: var(--primary-button) !important;
 }
+
 nav .nav-link.active {
   color: var(--body-text-color) !important;
 }
@@ -33,19 +36,23 @@ nav .nav-link.active {
 nav .navbar-toggler {
   background-color: var(--primary-button);
 }
+
 .home-body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 150px auto;
 }
+
 .home-body-text {
   margin-top: 120px;
 }
+
 .home-body-img {
   margin: auto 0 0 auto;
   filter: drop-shadow(1px 1px 15px var(--heading-color));
 }
+
 body h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -53,21 +60,25 @@ body h1 {
   color: var(--body-text-color);
   margin-top: 25px;
 }
+
 body h2 {
   font-family: "Playfair Display", serif;
   font-weight: 700;
   font-size: 96px;
   color: var(--heading-color);
 }
+
 body h4 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 36px;
   color: var(--body-text-color);
 }
+
 .home-body-button-container {
   margin-top: 40px;
 }
+
 .home-body-button {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -79,18 +90,22 @@ body h4 {
   text-decoration: none;
   color: var(--primary-color);
 }
+
 .work-section {
   background: linear-gradient(0deg, var(--primary-color), 80%, #212121);
   margin-top: 220px;
   text-align: center;
 }
+
 .featured-project {
   margin-bottom: 200px;
   padding: 10px 0;
 }
+
 body .work-section-weather-app-container {
   margin: auto;
 }
+
 .work-section-header {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -99,9 +114,11 @@ body .work-section-weather-app-container {
   margin-bottom: 50px;
   color: var(--heading-color);
 }
+
 .work-section-weather-app-pic {
   border-radius: 4px;
 }
+
 .work-section-weather-app-head {
   font-family: "Playfair Display", serif;
   font-weight: 700;
@@ -119,6 +136,7 @@ body .work-section-weather-app-container {
   margin-top: 25px;
   text-align: justify;
 }
+
 .work-section-weather-app-button button {
   background: none;
 
@@ -131,10 +149,12 @@ body .work-section-weather-app-container {
   margin-top: 40px;
   box-shadow: var(--primary-button) 0px 1px 4px;
 }
+
 .work-section-weather-app-button button a {
   text-decoration: none;
   color: var(--body-text-color);
 }
+
 body .footer {
   margin: 132px auto 80px;
   padding: 49px 119px;
@@ -145,12 +165,14 @@ body .footer {
   justify-content: space-around;
   align-items: center;
 }
+
 .footer-head {
   font-family: "Playfair Display", serif;
   font-weight: 700;
   font-size: 48px;
   color: var(--heading-color);
 }
+
 .footer-p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -158,6 +180,7 @@ body .footer {
   line-height: 27px;
   color: var(--body-text-color);
 }
+
 .footer button {
   background-color: var(--primary-button);
   border: none;
@@ -165,6 +188,7 @@ body .footer {
   border-radius: 4px;
   padding: 18px 38px;
 }
+
 .footer button a {
   text-decoration: none;
   font-family: "Poppins", sans-serif;
@@ -172,29 +196,34 @@ body .footer {
   font-size: 18px;
   color: var(--primary-color);
 }
+
 .contact {
   margin: 130px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .contact a {
   text-decoration: none;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 17px;
   color: var(--body-text-color);
   padding: 40px 0;
 }
+
 .social-media a {
   border-radius: 100%;
   padding: 7px 14px;
   background-color: var(--primary-button);
 }
+
 /**************************************************/
 .about-hero {
   margin: 178px auto;
 }
+
 .about-name {
   font-family: "Playfair Display", serif;
   font-weight: 700;
@@ -202,6 +231,7 @@ body .footer {
   color: var(--heading-color);
   margin-bottom: 29px;
 }
+
 .about-title {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -210,6 +240,7 @@ body .footer {
   color: var(--heading-color);
   margin-bottom: 28px;
 }
+
 .about-p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -218,6 +249,7 @@ body .footer {
   color: var(--body-text-color);
   margin-bottom: 48px;
 }
+
 .about-button {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -227,9 +259,11 @@ body .footer {
   border-radius: 4px;
   padding: 18px 46px;
 }
+
 .about-my-skills-box-container {
   margin-bottom: 200px;
 }
+
 .about-my-skills {
   font-family: "Playfair Display", serif;
   font-weight: 700;
@@ -246,6 +280,7 @@ body .footer {
   margin-top: 15px;
   margin-bottom: 15px;
 }
+
 /**************************************************/
 .work-headline {
   font-family: "Playfair Display", serif;
@@ -254,6 +289,7 @@ body .footer {
   color: var(--heading-color);
   margin: 178px auto;
 }
+
 .work-projects-items {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -261,34 +297,42 @@ body .footer {
   line-height: 36px;
   color: var(--body-text-color);
 }
+
 .work-projects-items-title {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
 }
+
 .work-projects-items-title a {
   text-decoration: none;
   color: var(--body-text-color);
 }
+
 .work-projects-items-title a:hover {
   color: var(--primary-button);
 }
+
 body .work-projects-box-2 {
   margin-top: 120px;
 }
+
 .work-projects img {
   border-radius: 4px;
   padding: 1px;
   background-color: white;
 }
+
 body .work-projects-box-3 {
   margin-top: 120px;
 }
+
 body .work-projects-box-4 {
   margin-top: 120px;
   margin-bottom: 200px;
 }
+
 /**************************************************/
 .contact-headline {
   font-family: "Playfair Display", serif;
@@ -297,11 +341,13 @@ body .work-projects-box-4 {
   color: var(--heading-color);
   margin: 178px auto;
 }
+
 .contact-footer {
   background: #353941;
   border-radius: 20px;
   padding: 49px 119px;
 }
+
 .contact-footer-inquiry {
   font-family: "Playfair Display", serif;
   font-weight: 700;
@@ -310,6 +356,7 @@ body .work-projects-box-4 {
   color: var(--body-text-color);
   margin-bottom: 18px;
 }
+
 .contact-footer-inquiry-p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -317,6 +364,7 @@ body .work-projects-box-4 {
   line-height: 27px;
   color: var(--body-text-color);
 }
+
 .contact-footer-inquiry-button a {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -336,279 +384,355 @@ body .work-projects-box-4 {
     margin-top: 120px;
     margin-bottom: 40px;
   }
+
   .home-body-text h4 {
     font-size: 26px;
   }
+
   .home-body-text h2 {
     font-size: 85px;
   }
+
   .home-body-text h1 {
     font-size: 20px;
     margin-top: 11px;
   }
+
   .work-section-weather-app-head {
     font-size: 58px;
   }
+
   .work-section-weather-app-p {
     font-size: 14px;
     line-height: 28px;
     margin-top: 16px;
   }
+
   .work-section-weather-app-button button {
     margin-top: 22px;
   }
+
   .about-name {
     font-size: 58px;
     margin-bottom: 12px;
   }
+
   .about-p {
     margin-bottom: 38px;
   }
+
   .work-headline {
     font-size: 56px;
   }
+
   .contact-headline {
     font-size: 56px;
   }
 }
+
 /**************************************************/
 
 @media (max-width: 1199px) {
   .home-body-text h4 {
     font-size: 30px;
   }
+
   .home-body-text h2 {
     font-size: 86px;
   }
+
   .home-body-text h1 {
     font-size: 18px;
   }
+
   .home-body-button {
     font-size: 14px;
     padding: 14px 42px;
   }
+
   .home-body-img img {
     width: 300px;
   }
+
   .work-section-header {
     font-size: 16px;
   }
+
   .work-section-weather-app-head {
     font-size: 45px;
   }
+
   .work-section-weather-app-p {
     font-size: 12px;
     margin-top: 12px;
   }
+
   .work-section-weather-app-button button {
     font-size: 11px;
     margin-top: 15px;
   }
+
   .featured-project {
     margin-bottom: 130px;
   }
+
   .about-hero {
     margin: 170px auto;
   }
+
   .about-name {
     font-size: 48px;
     margin-bottom: 20px;
   }
+
   .about-p {
     font-size: 14px;
     line-height: 27px;
   }
+
   .about-button {
     font-size: 14px;
     padding: 16px 42px;
   }
+
   .about-hero-image {
     width: 400px;
   }
+
   .work-headline {
     font-size: 60px;
   }
+
   .contact-headline {
     font-size: 60px;
   }
 }
+
 @media (max-width: 991px) {
   .home-body-text h4 {
     font-size: 25px;
   }
+
   .home-body-text h2 {
     font-size: 65px;
   }
+
   .home-body-text h1 {
     font-size: 16px;
     margin-top: 12px;
   }
+
   .home-body-img img {
     width: 250px;
   }
+
   .home-body-text {
     margin-top: 75px;
   }
+
   .work-section-weather-app-head {
     font-size: 40px;
   }
+
   .work-section-weather-app-p {
     font-size: 11px;
     margin-top: 5px;
     line-height: 22px;
   }
+
   .work-section-weather-app-button button {
     font-size: 13px;
     margin-top: 10px;
     padding: 13px 15px;
   }
+
   .contact-footer-inquiry {
     font-size: 35px;
     line-height: 40px;
     margin-bottom: 13px;
   }
+
   .contact-footer-inquiry-p {
     font-size: 14px;
     line-height: 21px;
   }
+
   .contact-footer-inquiry-button a {
     padding: 12px 24px;
     font-size: 15px;
   }
 }
+
 @media (max-width: 767px) {
   .home-body {
     margin: 120px auto;
   }
+
   .home-body-text {
     margin-top: 60px;
   }
+
   .home-body-text h4 {
     font-size: 22px;
   }
+
   .home-body-text h2 {
     font-size: 52px;
   }
+
   .home-body-text h1 {
     font-size: 14px;
     margin-top: 8px;
   }
+
   .home-body-button-container {
     margin-top: 35px;
   }
+
   .home-body-button {
     font-size: 12px;
     padding: 13px 32px;
   }
+
   .home-body-img img {
     width: 180px;
   }
+
   .work-section {
     margin-top: 112px;
   }
+
   body .work-section-weather-app-container {
     margin-top: 20px;
   }
+
   .featured-project {
     margin-bottom: 70px;
   }
+
   .contact-footer-inquiry {
     font-size: 32px;
     line-height: 40px;
     margin-bottom: 10px;
     justify-content: center;
   }
+
   .contact-footer-inquiry-p {
     font-size: 12px;
     line-height: 20px;
     justify-content: center;
   }
+
   body .contact-footer-inquiry-button {
     justify-content: center !important;
   }
+
   .contact-footer-inquiry-button a {
     padding: 10px 22px;
     font-size: 12px;
   }
+
   .contact a {
     font-size: 18px;
     padding: 35px 0;
   }
+
   .social-media a {
     padding: 7px 9px;
   }
+
   .about-name {
     font-size: 40px;
     margin-bottom: 8px;
   }
+
   .about-title {
     font-size: 16px;
     line-height: 21px;
     font-weight: 600;
   }
+
   .about-p {
     font-size: 13px;
     line-height: 25px;
     margin-bottom: 32px;
   }
+
   .about-button {
     font-size: 12px;
     padding: 14px 36px;
   }
+
   .about-hero-image {
     width: 300px;
   }
+
   .about-my-skills-img {
     width: 50px;
   }
+
   .work-headline {
     font-size: 42px;
   }
+
   body .work-projects-box-1-weather-app {
     margin-bottom: 40px !important;
   }
+
   .contact-headline {
     font-size: 42px;
     margin: 140px auto 60px;
     text-align: center;
   }
 }
+
 @media (max-width: 575px) {
   body .home-body {
     padding: 0 30px;
   }
+
   .home-body-text h4 {
     font-size: 20px;
   }
+
   .home-body-text h2 {
     font-size: 45px;
   }
+
   .home-body-img {
     margin: auto 0;
   }
+
   .home-body-img img {
     width: 170px;
   }
+
   .work-section-weather-app-p {
     padding: 10px 31px;
   }
+
   body .contact-footer {
     margin: auto 20px;
     padding: 48px 41px;
   }
+
   .contact-footer-inquiry-p {
     text-align: center;
   }
+
   .about-hero {
     text-align: center;
   }
+
   body .about-hero-img {
     justify-content: center !important;
     margin-top: 30px;
   }
+
   .about-name {
     font-size: 35px;
   }
+
   .about-p {
     font-size: 12px;
     line-height: 22px;
@@ -617,28 +741,35 @@ body .work-projects-box-4 {
     padding: 0 20px;
   }
 }
+
 @media (max-width: 540px) {
   .home-body-text h4 {
     font-size: 18px;
   }
+
   .home-body-text h2 {
     font-size: 40px;
   }
+
   .home-body-text h1 {
     font-size: 12px;
     margin-top: 8px;
   }
+
   .work-section-header {
     font-size: 14px;
   }
+
   .work-section-weather-app-head {
     font-size: 30px;
   }
+
   .work-section-weather-app-p {
     font-size: 11px;
     margin-top: 6px;
     line-height: 21px;
   }
+
   .work-section-weather-app-button button {
     font-size: 10px;
   }
@@ -646,50 +777,63 @@ body .work-projects-box-4 {
   .about-my-skills {
     font-size: 35px;
   }
+
   .about-my-skills-box i {
     font-size: 32px;
   }
+
   .about-my-skills-items {
     font-size: 10px;
     margin-top: 7px;
   }
+
   .work-headline {
     margin: 145px auto;
     font-size: 33px;
   }
+
   .work-projects-items {
     font-size: 18px;
   }
+
   .work-projects-items-title {
     font-size: 10px;
     line-height: 9px;
   }
+
   .contact-headline {
     font-size: 35px;
   }
+
   .contact-footer-inquiry {
     text-align: center;
   }
+
   .contact-footer-inquiry-p {
     text-align: center;
   }
 }
+
 @media (max-width: 499px) {
   .home-body-text {
     display: flex;
     flex-direction: column;
     margin: 40px auto 60px;
   }
+
   .home-body-text h4 {
     font-size: 18px;
   }
+
   .home-body-text h2 {
     font-size: 40px;
   }
+
   .home-body-text h1 {
     font-size: 12px;
     margin-top: 8px;
   }
+
   .home-body-button-container {
     display: flex;
     justify-content: center;
@@ -702,16 +846,19 @@ body .work-projects-box-4 {
     margin: auto;
   }
 }
+
 @media (max-width: 375px) {
   .home-body {
     justify-content: center;
     text-align: center;
   }
+
   .home-body-img {
     display: flex;
     justify-content: center;
     margin: auto;
   }
+
   .work-section-weather-app-head {
     font-size: 25px;
   }
@@ -719,25 +866,31 @@ body .work-projects-box-4 {
   .contact-footer-inquiry {
     font-size: 22px;
   }
+
   .contact-footer-inquiry-p {
     font-size: 10px;
     line-height: 20px;
     text-align: center;
   }
+
   .contact-footer-inquiry-button a {
     padding: 10px 20px;
     font-size: 10px;
   }
+
   .contact-footer {
     padding: 43px 63px;
   }
+
   .contact {
     margin: 100px auto;
   }
+
   .contact a {
     font-size: 14px;
     padding: 30px 0;
   }
+
   .social-media a {
     padding: 7px 7px;
   }
