@@ -49,15 +49,22 @@ body .navbar-toggler-icon {
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 150px auto;
+  align-items: center;
 }
 
-.home-body-text {
-  margin-top: 120px;
-}
 
 .home-body-img {
   margin: auto 0 0 auto;
-  filter: drop-shadow(1px 1px 15px var(--heading-color));
+  background: var(--body-text-color);
+  border-radius: 8px;
+  border-top-right-radius: 172px;
+  border-top-left-radius: 172px;
+  box-shadow: rgb(190 190 190 / 19%) 0px 10px 20px, rgb(180 180 180 / 23%) 0px 6px 6px;
+
+}
+
+.home-body-img img {
+  filter: drop-shadow(0 0 0.75rem white);
 }
 
 body h1 {
@@ -240,6 +247,10 @@ body .footer {
   margin: 178px auto;
 }
 
+.about-hero-img img {
+  border-bottom: 1px solid var(--primary-button);
+}
+
 .about-name {
   font-family: "Playfair Display", serif;
   font-weight: 700;
@@ -250,7 +261,7 @@ body .footer {
 
 .about-title {
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 18px;
   line-height: 27px;
   color: var(--heading-color);
@@ -431,10 +442,6 @@ body .work-projects-box-4 {
 
 /**************************************************/
 @media (max-width: 1399px) {
-  .home-body-text {
-    margin-top: 120px;
-    margin-bottom: 40px;
-  }
 
   .home-body-text h4 {
     font-size: 26px;
@@ -550,9 +557,7 @@ body .work-projects-box-4 {
     padding: 14px 30px;
   }
 
-  .about-hero-image {
-    width: 400px;
-  }
+
 
   .about-my-skills-svg {
     max-width: 21% !important;
@@ -593,10 +598,14 @@ body .work-projects-box-4 {
     width: 250px;
   }
 
-  .home-body-text {
-    margin-top: 75px;
+  .about-name {
+    font-size: 35px;
+    margin-bottom: 8px;
   }
 
+  .about-title {
+    font-size: 18px;
+  }
 
   .work-section-weather-app-head {
     font-size: 40px;
@@ -634,10 +643,6 @@ body .work-projects-box-4 {
 @media (max-width: 768px) {
   .home-body {
     margin: 120px auto;
-  }
-
-  .home-body-text {
-    margin-top: 60px;
   }
 
   .home-body-text h4 {
@@ -714,6 +719,11 @@ body .work-projects-box-4 {
     padding: 5px 9px;
   }
 
+  .about-hero-row-text {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
   .about-name {
     font-size: 40px;
     margin-bottom: 8px;
@@ -722,7 +732,6 @@ body .work-projects-box-4 {
   .about-title {
     font-size: 16px;
     line-height: 21px;
-    font-weight: 600;
   }
 
   .about-p {
@@ -738,6 +747,12 @@ body .work-projects-box-4 {
 
   .about-hero-image {
     width: 300px;
+
+  }
+
+  body .about-hero-img {
+    justify-content: center !important;
+
   }
 
   body .about-my-skills-gap-row {
@@ -829,7 +844,7 @@ body .work-projects-box-4 {
 
   body .about-hero-img {
     justify-content: center !important;
-    margin-top: 30px;
+
   }
 
   .about-name {
@@ -852,6 +867,15 @@ body .work-projects-box-4 {
 }
 
 @media (max-width: 540px) {
+  .home-body {
+    justify-content: center;
+  }
+
+  .home-body-text {
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
   .home-body-text h4 {
     font-size: 18px;
   }
