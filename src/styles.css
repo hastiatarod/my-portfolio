@@ -48,75 +48,67 @@ body .navbar-toggler-icon {
 .home-body {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  flex-direction: row-reverse;
+  gap: 30px;
   margin: 150px auto;
   align-items: center;
 }
 
-
-.home-body-img {
-  margin: auto 0 0 auto;
-  background: var(--body-text-color);
-  border-radius: 8px;
-  border-top-right-radius: 172px;
-  border-top-left-radius: 172px;
-  box-shadow: rgb(190 190 190 / 19%) 0px 10px 20px, rgb(180 180 180 / 23%) 0px 6px 6px;
-
-}
-
 .home-body-img img {
-  filter: drop-shadow(0 0 0.75rem white);
-  margin-top: 20px;
+  border-bottom: .5px solid #2cc29573;
+  border-right: .5px solid #2cc29573;
+  border-radius: 4px;
 }
 
 body h1 {
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-size: 24px;
+  font-weight: 300;
+  font-size: 18px;
   color: var(--body-text-color);
-  margin-top: 25px;
+  margin-top: 10px;
 }
 
 body h2 {
   font-family: "Playfair Display", serif;
-  font-weight: 700;
-  font-size: 61px;
+  font-weight: 500;
+  font-size: 40px;
+  letter-spacing: 1px;
   color: var(--secondary-color);
 }
 
 body h3 {
   font-family: "Playfair Display", serif;
-  font-size: 50px;
-  margin-bottom: 20px;
-  color: var(--heading-color);
-  font-weight: 400;
+  font-size: 35px;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+  color: var(--body-text-color);
+  font-weight: 300;
 }
 
 body h4 {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
-  font-size: 36px;
+  font-size: 22px;
   color: var(--body-text-color);
   margin-left: 2px;
 }
 
 .home-body-button-container {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .home-body-button {
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 18px;
+  font-weight: 400;
+  font-size: 16px;
   background-color: var(--primary-button);
   border-radius: 4px;
-  padding: 14px 30px;
+  padding: 10px 20px;
   text-decoration: none;
   color: var(--primary-color);
-  transition: all ease 300ms;
-  border-bottom: 2px solid white;
-  border-bottom-left-radius: 2px;
-  border-left: 4px solid #888585;
+  box-shadow: var(--hover-button) 0px 1px 4px;
+
 }
 
 .home-body-button:hover {
@@ -128,7 +120,6 @@ body h4 {
 
 .work-section {
   background: linear-gradient(0deg, var(--primary-color), 80%, #212121);
-  margin-top: 220px;
   text-align: center;
 }
 
@@ -157,19 +148,19 @@ body .work-section-weather-app-container {
 
 .work-section-weather-app-head {
   font-family: "Playfair Display", serif;
-  font-weight: 700;
-  font-size: 73px;
+  font-weight: 400;
+  font-size: 50px;
   color: var(--heading-color);
 }
 
 .work-section-weather-app-p {
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  font-weight: 200;
   font-size: 16px;
   line-height: 30px;
   padding: 10px;
   color: var(--body-text-color);
-  margin-top: 25px;
+  margin-top: 16px;
   text-align: justify;
 }
 
@@ -177,12 +168,12 @@ body .work-section-weather-app-container {
   background: none;
 
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  padding: 18px 25px;
+  font-weight: 300;
+  font-size: 14px;
+  padding: 10px 20px;
   border: 1px solid var(--primary-button);
   border-radius: 4px;
-  margin-top: 40px;
+  margin-top: 26px;
   box-shadow: var(--primary-button) 0px 1px 4px;
 }
 
@@ -257,7 +248,7 @@ body .footer {
 
 /**************************************************/
 .about-hero {
-  margin: 178px auto;
+  margin: 55px auto 178px;
 }
 
 .about-hero-img img {
@@ -426,24 +417,24 @@ body .work-projects-box-4 {
 
 .contact-footer-inquiry {
   font-family: "Playfair Display", serif;
-  font-weight: 700;
-  font-size: 48px;
+  font-weight: 500;
+  font-size: 45px;
   line-height: 63px;
   color: var(--body-text-color);
-  margin-bottom: 18px;
+  margin-bottom: 15px;
 }
 
 .contact-footer-inquiry-p {
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 18px;
-  line-height: 27px;
+  line-height: 20px;
   color: var(--body-text-color);
 }
 
 .contact-footer-inquiry-button a {
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 18px;
   color: var(--primary-color);
   text-decoration: none;
@@ -451,7 +442,7 @@ body .work-projects-box-4 {
   border: none;
   box-shadow: var(--primary-color) 0px 1px 4px;
   border-radius: 4px;
-  padding: 18px 38px;
+  padding: 15px 30px;
   transition: all ease 200ms;
 }
 
@@ -462,33 +453,6 @@ body .work-projects-box-4 {
 
 /**************************************************/
 @media (max-width: 1399px) {
-
-  .home-body-text h4 {
-    font-size: 26px;
-  }
-
-  .home-body-text h2 {
-    font-size: 50px;
-  }
-
-  .home-body-text h3 {
-    font-size: 45px;
-  }
-
-  .home-body-text h1 {
-    font-size: 20px;
-    margin-top: 11px;
-  }
-
-  .work-section-weather-app-head {
-    font-size: 58px;
-  }
-
-  .work-section-weather-app-p {
-    font-size: 14px;
-    line-height: 28px;
-    margin-top: 16px;
-  }
 
   .work-section-weather-app-button button {
     margin-top: 22px;
@@ -515,26 +479,6 @@ body .work-projects-box-4 {
 /**************************************************/
 
 @media (max-width: 1199px) {
-  .home-body-text h4 {
-    font-size: 30px;
-  }
-
-  .home-body-text h2 {
-    font-size: 50px;
-  }
-
-  .home-body-text h1 {
-    font-size: 18px;
-  }
-
-  .home-body-button {
-    font-size: 14px;
-    padding: 14px 30px;
-  }
-
-  .home-body-img img {
-    width: 300px;
-  }
 
   .work-section-header {
     font-size: 16px;
@@ -594,11 +538,11 @@ body .work-projects-box-4 {
 
 @media (max-width: 991px) {
   .home-body-text h4 {
-    font-size: 25px;
+    font-size: 18px;
   }
 
   .home-body-text h2 {
-    font-size: 37px;
+    font-size: 35px;
   }
 
   .about-my-skills-svg {
@@ -606,12 +550,17 @@ body .work-projects-box-4 {
   }
 
   .home-body-text h3 {
-    font-size: 35px;
+    font-size: 30px;
   }
 
   .home-body-text h1 {
     font-size: 16px;
     margin-top: 12px;
+  }
+
+  .home-body-button {
+    padding: 8px 16px;
+    font-size: 14px;
   }
 
   .home-body-img img {
@@ -666,7 +615,7 @@ body .work-projects-box-4 {
   }
 
   .home-body-text h4 {
-    font-size: 22px;
+    font-size: 17px;
   }
 
   .home-body-text h2 {
@@ -674,26 +623,29 @@ body .work-projects-box-4 {
   }
 
   .home-body-text h3 {
-    font-size: 30px;
+    font-size: 27px;
   }
 
 
   .home-body-text h1 {
-    font-size: 14px;
     margin-top: 8px;
   }
 
   .home-body-button-container {
-    margin-top: 35px;
+    margin-top: 23px;
+  }
+
+  .home-body-button-container {
+    margin-top: 20px;
   }
 
   .home-body-button {
     font-size: 12px;
-    padding: 13px 30px;
+    padding: 6px 10px;
   }
 
   .home-body-img img {
-    width: 180px;
+    width: 200px;
   }
 
   .work-section {
@@ -830,11 +782,19 @@ body .work-projects-box-4 {
   }
 
   .home-body-text h4 {
-    font-size: 20px;
+    font-size: 15px;
+  }
+
+  .home-body-text h3 {
+    font-size: 25px;
   }
 
   .home-body-text h2 {
-    font-size: 25px;
+    font-size: 26px;
+  }
+
+  .home-body-text h1 {
+    font-size: 15px;
   }
 
   .home-body-img {
@@ -842,7 +802,16 @@ body .work-projects-box-4 {
   }
 
   .home-body-img img {
-    width: 170px;
+    width: 197px;
+  }
+
+  .home-body-button-container {
+    margin-top: 16px;
+  }
+
+  .home-body-button {
+    font-size: 10px;
+    padding: 5px 10px;
   }
 
   .work-section-weather-app-p {
@@ -892,21 +861,13 @@ body .work-projects-box-4 {
   }
 
   .home-body-text {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     text-align: center;
   }
 
-  .home-body-text h4 {
-    font-size: 18px;
-  }
-
-  .home-body-text h2 {
-    font-size: 40px;
-  }
-
-  .home-body-text h1 {
-    font-size: 12px;
-    margin-top: 8px;
+  .home-body-img img {
+    border-right: none;
+    border-radius: 0px;
   }
 
   .work-section-header {
@@ -988,26 +949,11 @@ body .work-projects-box-4 {
   .home-body-text {
     display: flex;
     flex-direction: column;
-    margin: 40px auto 60px;
-  }
-
-  .home-body-text h4 {
-    font-size: 18px;
-  }
-
-  .home-body-text h2 {
-    font-size: 34px;
-  }
-
-  .home-body-text h1 {
-    font-size: 12px;
-    margin-top: 8px;
   }
 
   .home-body-button-container {
     display: flex;
     justify-content: center;
-    margin-top: 25px;
   }
 
   .home-body-img {
@@ -1045,10 +991,6 @@ body .work-projects-box-4 {
     display: flex;
     justify-content: center;
     margin: auto;
-  }
-
-  .home-body-text h2 {
-    font-size: 29px;
   }
 
   .work-section-weather-app-head {
