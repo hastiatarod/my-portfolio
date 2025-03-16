@@ -3,13 +3,7 @@
   font-weight: 100;
   font-style: normal;
 }
-  .playfair-display-<uniquifier> {
-  font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-  --primary-button:#73EC8B
-}*/
+*/
 :root {
   --primary-color: #0f0f0f;
   --secondary-color: #AACBC4;
@@ -70,17 +64,17 @@ body h1 {
 }
 
 body h2 {
-  font-family: "Playfair Display", serif;
+  font-family: "Poppins",
+    sans-serif;
   font-weight: 500;
   font-size: 40px;
-  letter-spacing: 1px;
   color: var(--secondary-color);
 }
 
 body h3 {
-  font-family: "Playfair Display", serif;
+  font-family: "Poppins",
+    sans-serif;
   font-size: 35px;
-  letter-spacing: 1px;
   margin-bottom: 12px;
   color: var(--body-text-color);
   font-weight: 300;
@@ -148,7 +142,8 @@ body .work-section-weather-app-container {
 }
 
 .work-section-weather-app-head {
-  font-family: "Playfair Display", serif;
+  font-family: "Poppins",
+    sans-serif;
   font-weight: 400;
   font-size: 50px;
   color: var(--heading-color);
@@ -195,7 +190,7 @@ body .footer {
 }
 
 .footer-head {
-  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 48px;
   color: var(--heading-color);
@@ -249,7 +244,8 @@ body .footer {
 
 /**************************************************/
 .about-hero {
-  margin: 55px auto 178px;
+  margin: 130px auto;
+  display: flex;
 }
 
 .about-hero-img img {
@@ -258,7 +254,7 @@ body .footer {
 }
 
 .about-name {
-  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 40px;
   color: var(--body-text-color);
@@ -308,11 +304,11 @@ body .footer {
 }
 
 .about-my-skills {
-  font-family: "Playfair Display", serif;
-  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
   font-size: 40px;
   color: var(--heading-color);
-  margin-bottom: 70px;
+  margin-bottom: 40px;
 }
 
 .about-my-skills-svg {
@@ -333,7 +329,7 @@ body .footer {
 
 /**************************************************/
 .work-headline {
-  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 64px;
   color: var(--heading-color);
@@ -392,7 +388,7 @@ body .work-projects-box-4 {
 
 .contact-headline {
   text-align: center;
-  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 64px;
   color: var(--heading-color);
@@ -425,7 +421,7 @@ body .work-projects-box-4 {
 }
 
 .contact-footer-inquiry {
-  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 45px;
   line-height: 63px;
@@ -568,6 +564,10 @@ body .work-projects-box-4 {
     font-size: 14px;
   }
 
+  .about-my-skills {
+    font-size: 32px;
+  }
+
   .work-section-weather-app-head {
     font-size: 40px;
   }
@@ -694,6 +694,11 @@ body .work-projects-box-4 {
 
   }
 
+  .about-my-skills {
+    font-size: 25px;
+    margin-bottom: 16px;
+  }
+
   body .about-my-skills-gap-row {
     gap: 10px !important;
     margin-top: 10px !important;
@@ -717,7 +722,6 @@ body .work-projects-box-4 {
   }
 
   .about-name {
-    width: 500px;
     line-height: 29px;
     font-size: 20px;
   }
@@ -816,23 +820,28 @@ body .work-projects-box-4 {
 
   .about-hero {
     text-align: center;
+    margin-bottom: 30px;
   }
 
   body .about-hero-img {
     justify-content: center !important;
+    margin-top: 16px;
 
+  }
+
+  .about-hero-img img {
+    width: 250px;
   }
 
   .about-name {
-    font-size: 35px;
+    margin: 0 auto 12px;
+    line-height: 32px;
   }
 
   .about-p {
-    font-size: 12px;
-    line-height: 22px;
-    margin-bottom: 22px;
-    text-align: justify;
-    padding: 0 20px;
+    width: auto;
+    margin: 0 auto 20px;
+    line-height: 25px;
   }
 }
 
@@ -875,9 +884,7 @@ body .work-projects-box-4 {
     font-size: 10px;
   }
 
-  .about-my-skills {
-    font-size: 35px;
-  }
+  .about-my-skills {}
 
   .about-my-skills-box i {
     font-size: 32px;
