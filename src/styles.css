@@ -330,15 +330,15 @@ body .footer {
 /**************************************************/
 .work-headline {
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-size: 64px;
+  font-weight: 500;
+  font-size: 40px;
   color: var(--heading-color);
-  margin: 178px auto;
+  margin: 150px auto;
 }
 
 .work-projects-items {
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 24px;
   line-height: 36px;
   color: var(--body-text-color);
@@ -348,7 +348,6 @@ body .footer {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 14px;
-  line-height: 21px;
 }
 
 .work-projects-items-title a {
@@ -386,17 +385,22 @@ body .work-projects-box-4 {
   background-image: linear-gradient(360deg, rgba(56, 67, 67, 1) 7%, rgba(15, 15, 15, 1) 71%);
 }
 
+.contact-page-box-2 {
+  display: flex;
+  flex-direction: column;
+}
+
 .contact-headline {
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 64px;
+  font-size: 40px;
   color: var(--heading-color);
-  margin: 178px auto;
+  margin: 150px auto;
 }
 
 .contact-headline .line-1 {
-  font-size: 38px;
+  font-size: 35px;
   color: var(--body-text-color);
 
 }
@@ -409,7 +413,7 @@ body .work-projects-box-4 {
 }
 
 .contact-headline .contact-me-mail {
-  font-size: 35px;
+  font-size: 32px;
   color: var(--secondary-color);
   margin-top: 10px;
 }
@@ -462,14 +466,6 @@ body .work-projects-box-4 {
   .work-section-weather-app-button button {
     margin-top: 22px;
   }
-
-  .work-headline {
-    font-size: 56px;
-  }
-
-  .contact-headline {
-    font-size: 56px;
-  }
 }
 
 /**************************************************/
@@ -500,14 +496,6 @@ body .work-projects-box-4 {
 
   .about-my-skills-svg {
     max-width: 21% !important;
-  }
-
-  .work-headline {
-    font-size: 60px;
-  }
-
-  .contact-headline {
-    font-size: 60px;
   }
 }
 
@@ -741,7 +729,7 @@ body .work-projects-box-4 {
   }
 
   .work-headline {
-    font-size: 42px;
+    font-size: 30px;
   }
 
   body .work-projects-box-1-weather-app {
@@ -749,21 +737,21 @@ body .work-projects-box-4 {
   }
 
   .contact-headline {
-    font-size: 42px;
-    margin: 140px auto 60px;
+    font-size: 30px;
+    margin: 140px auto;
     text-align: center;
   }
 
   .contact-headline .line-1 {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .contact-headline .contact-me {
-    font-size: 28px;
+    font-size: 22px;
   }
 
   .contact-headline .contact-me-mail {
-    font-size: 29px;
+    font-size: 25px;
   }
 }
 
@@ -884,8 +872,6 @@ body .work-projects-box-4 {
     font-size: 10px;
   }
 
-  .about-my-skills {}
-
   .about-my-skills-box i {
     font-size: 32px;
   }
@@ -902,7 +888,7 @@ body .work-projects-box-4 {
 
   .work-headline {
     margin: 145px auto;
-    font-size: 33px;
+    font-size: 25px;
   }
 
   .work-projects-items {
@@ -910,24 +896,8 @@ body .work-projects-box-4 {
   }
 
   .work-projects-items-title {
-    font-size: 10px;
+    font-size: 12px;
     line-height: 9px;
-  }
-
-  .contact-headline {
-    font-size: 35px;
-  }
-
-  .contact-headline .line-1 {
-    font-size: 28px;
-  }
-
-  .contact-headline .contact-me {
-    font-size: 25px;
-  }
-
-  .contact-headline .contact-me-mail {
-    font-size: 26px;
   }
 
   .contact-footer-inquiry {
@@ -972,6 +942,24 @@ body .work-projects-box-4 {
 @media (max-width: 442px) {
   .about-my-skills-box-container {
     max-width: 90% !important;
+  }
+}
+
+@media (max-width: 425px) {
+  .contact-headline {
+    font-size: 25px;
+  }
+
+  .contact-headline .line-1 {
+    font-size: 20px;
+  }
+
+  .contact-headline .contact-me {
+    font-size: 18px;
+  }
+
+  .contact-headline .contact-me-mail {
+    font-size: 20px;
   }
 }
 
