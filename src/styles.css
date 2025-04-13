@@ -418,6 +418,17 @@ body .work-projects-box-4 {
   margin-top: 10px;
 }
 
+.resume {
+  text-align: center;
+}
+
+.resume a {
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--secondary-color);
+  font-family: "Poppins", sans-serif;
+}
+
 .contact-footer {
   background: #353941;
   border-radius: 20px;
